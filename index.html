@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haskell</title>
+
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+    <header class="mainNav">
+      <div class="row">
+        <div class="large-3 medium-3 columns">
+          <div class="logo">
+            <img src="img/logo.png">
+            <div class="text">Haskell</div>
+          </div>
+        </div>
+
+        <div class="large-9 medium-9 columns">
+          <nav>
+            <ul>
+              <li><a href="">Try Haskell</a></li>
+              <li><a href="">Getting Started</a></li>
+              <li><a href="">Community</a></li>
+              <li><a class="download" href="">Download</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="row">
+        <div class="large-6 medium-6 columns">
+          <h2>Declarative, pure, and statically typed</h2>
+          Use the power of functional progamming, static typing, and immutability
+          to create performant, reliable, and maintainable software.
+        </div>
+        <div class="large-6 medium-6 columns example">
+          <pre class="example-code">fibonacci 0 = 0
+fibonacci 1 = 1
+fibonacci n = fibonacci (n - 1) + fibonacci (n - 2)</pre>
+          <a class="try-haskell" href="">Try Haskell</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-container">
+      <section class="row features-heading">
+        <div class="large-12 columns">
+          <h2>Features</h2>
+        </div>
+      </section>
+
+
+      <section class="row features">
+        <div class="large-4 medium-4 columns">
+          <h4>Purely functional</h4>
+          Integer elementum sem et vehicula eleifend. Duis convallis, urna ut ultricies condimentum, velit nisi porttitor massa, eget viverra tortor diam quis leo.
+        </div>
+        <div class="large-4 medium-4 columns">
+          <h4>Statically typed</h4>
+          Quisque enim est, scelerisque in elementum id, rutrum eget sapien. Nullam consectetur quis erat non posuere. In hac habitasse platea dictumst.
+        </div>
+        <div class="large-4 medium-4 columns">
+          <h4>Concurrent</h4>
+          Aenean rhoncus egestas erat eget finibus. Donec auctor ultrices vulputate. In vulputate nec libero at ultricies. Donec sit amet egestas tellus. Maecenas pulvinar tincidunt nisi, laoreet condimentum quam dapibus eget.
+        </div>
+
+      </section>
+    </section>
+
+    <section class="main">
+      <div class="row">
+        <div class="large-8 medium-8 columns">
+          <article class="news-item">
+            <h2>News</h2>
+
+            <h3>Haskell Platform 2014.2.0.0 release</h3>
+            <p class="publish-date">August 9, 2014</p>
+
+            <p>
+              This release features a major upgrade to OpenGL and GLUT. In addition,
+              "behind the scenes", this release of the platform is produced with a new
+              build system, and many improvements to the installations on all three OS
+              families.
+            </p>
+
+            <p>
+              <a href="">Read more</a>
+            </p>
+
+          </article>
+
+
+          <article class="news-item">
+            <h3>GHC 7.8.3 released!</h3>
+            <p class="publish-date">July 14, 2014</p>
+
+            <p>
+              GHC 7.8.3 is a maintainence release that fixes the following bugs:
+            </p>
+
+            <ul>
+              <li>A bug in the register allocator which would cause GHC to crash during compilation has been fixed (issue #9155).</li>
+              <li>A handful of bugs in the pattern synonyms implementation have been fixed (issues #9161, #8966, #9023, #9175).</li>
+              <li>A bug in runtime system which would cause tryReadMVar to deadlock has been fixed (issue #9148).</li>
+              <li>A segmentation fault for compiled programs using makeStableName has been fixed (issue #9078).</li>
+            </ul>
+
+            <p>
+              <a href="">Read more</a>
+            </p>
+          </article>
+
+
+        </div>
+        <div class="large-4 medium-4 columns">
+          <h2>Events</h2>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="large-4 medium-4 columns">
+          <h4>Links</h4>
+          <ul>
+           <li>Try Haskell</li>
+           <li>Getting Started</li>
+           <li>Community</li>
+           <li>Downloads</li>
+          </ul>
+
+        </div>
+        <div class="large-4 medium-4 columns">
+          <h4>Contribute</h4>
+          Nullam finibus vestibulum justo in laoreet. Pellentesque sit amet malesuada justo. Morbi faucibus quam ac massa euismod, ac aliquet tortor euismod.
+
+        </div>
+        <div class="large-4 medium-4 columns">
+          <h4>Sponsors</h4>
+          Thank you to our sponsors for helping the
+          Haskell community!
+          <ul>
+           <li>Company 1</li>
+           <li>Company 2</li>
+           <li>Company 3</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
